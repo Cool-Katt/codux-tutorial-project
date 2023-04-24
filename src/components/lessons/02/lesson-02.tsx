@@ -29,6 +29,18 @@ export const Lesson02 = () => {
                 </div>
                 <div className={styles.row}>
                     <Box
+                        text={'3'}
+                        className={styles.box03}
+                        color={'goldYellow'}
+                    />
+                    <Box
+                        text={'4'}
+                        className={styles.box04}
+                        color={'darkLavender'}
+                    />
+                </div>
+                <div className={styles.row}>
+                    <Box
                         text={'5'}
                         className={styles.box05}
                         color={'dirtyWhite'}
@@ -46,18 +58,6 @@ export const Lesson02 = () => {
                         color={'orangeRed'}
                     />
                     <Box text={'8'} className={styles.box08} color={'hotRed'} />
-                </div>
-                <div className={styles.row}>
-                    <Box
-                        text={'3'}
-                        className={styles.box03}
-                        color={'goldYellow'}
-                    />
-                    <Box
-                        text={'4'}
-                        className={styles.box04}
-                        color={'darkLavender'}
-                    />
                 </div>
                 <ConfettiFx
                     maxParticles={400}

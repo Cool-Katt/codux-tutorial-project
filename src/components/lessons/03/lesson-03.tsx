@@ -15,9 +15,10 @@ export const Lesson03 = () => {
         <div className={styles.root}>
             <Task />
             <div className={styles.playground}>
-                <div id="top" className={`${styles.eye} ${styles.top}`} />
+                <div id="top" className={`${styles.eye} ${styles.top}`}></div>
                 <div id="bottom" className={`${styles.eye} ${styles.bottom}`}>
-                    <Pupil color={'hotRed'} />
+                    <Pupil />
+                    <Pupil color="orangeRed" />
                 </div>
                 <ConfettiFx
                     maxParticles={400}

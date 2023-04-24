@@ -48,7 +48,7 @@
 //flex-direction: column;, justify-content: flex-end, gap: 26px
 .circles {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     padding: 55px 50px 58px 58px;
     gap: 26px;
     z-index: 1;
@@ -58,4 +58,7 @@
         width: 64px;
         height: 64px;
     }
+    flex-direction: column;
+    justify-items: start;
+    align-content: start;
 }
